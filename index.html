@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lector de Noticias</title>
+
+    <!--Archivo CSS-->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <!-- ==================
+        ENCABEZADO
+    =======================-->
+    <header>
+        <h1>Lector de Noticias</h1>
+        <p class="subtitulo">Noticias en tiempo real desde NewsAPI</p>
+    </header>
+
+    <!-- ==================
+        CUERPO PRINCIPLA
+    =======================-->
+    <main>
+        <!--Área de mensajes para errores, estado y avisos-->
+        <section id="mensajes"></section>
+
+        <!--Botón para refrescar noticias-->
+        <div class="acciones">
+            <button id="btnRefrescar">Refrescar Noticias</button>
+        </div>
+
+        <!--Área donde se nistraran las noticias-->
+        <section id="contenedorNoticias"></section>
+    </main>
+
+    <!--Archivo JavaScript-->
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
