@@ -73,26 +73,6 @@ lector_noticias_js/
 
 ---
 
-## 📷 Capturas
-
-Las capturas se incluyen en el documento Word del reto:
-- Página funcionando  
-- Noticias cargadas  
-- Código JavaScript (Fetch + JSON)  
-- Estructura HTML  
-- Estructura del repositorio  
-
----
-
-## 📚 Referencias
-
-TodoCode (2022). *¿Qué es JavaScript?* YouTube.  
-Álvarez, M., & Gutiérrez, M. (s.f.). *Manual de JavaScript*. DesarrolloWeb.com.  
-TheCoderCave (2020). *Curso de JSON*. YouTube.  
-Danisable (2020). *AJAX desde cero*. YouTube.
-
----
-
 ## 📝 Licencia
 
 Este proyecto utiliza la **Licencia MIT**.
