@@ -1,8 +1,33 @@
 /* ============================================
    Configuración de la API
 ============================================ */
-const API_KEY = "TU_API_KEY_AQUI"; 
-const API_URL = `https://newsapi.org/v2/top-headlines?country=mx&category=technology&apiKey=${API_KEY}`;
+/*
+===========================================================
+Cómo obtener tu propia API_KEY de NewsAPI
+-----------------------------------------------------------
+1. Ingresa a https://newsapi.org/register
+2. Crea una cuenta gratuita.
+3. NewsAPI te mostrará tu API Key personal.
+4. Copia esa clave y reemplaza el valor de API_KEY en este archivo.
+
+IMPORTANTE:
+- La API Key gratuita solo funciona desde localhost.
+- No funciona en GitHub Pages ni en dominios públicos.
+===========================================================
+*/
+
+const API_KEY = "TU_API_KEY_AQUI"; // Reemplaza con tu propia API Key de NewsAPI
+
+/* 
+===========================================================
+Actualización del endpoint de NewsAPI
+-----------------------------------------------------------
+Se cambió la URL de búsqueda de noticias ya que la categoría "technology" en México devuelve muy pocas noticias y 
+en Estados Unidos tiene mayor flujo de noticias y garantiza resultados.
+===========================================================
+*/
+const API_URL = `https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=${API_KEY}`;
+
 
 /* Elementos del DOM */
 const contenedorNoticias = document.getElementById("contenedorNoticias");
